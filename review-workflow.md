@@ -1,7 +1,7 @@
-# Readme
+# Review Workflow
 
 ## Overview
-This document defines the README used in the Indonesian Language Quality Assurance Portfolio.
+This document defines the review-workflow used in the Indonesian Language Quality Assurance Portfolio.
 
 ## Purpose
 Establish a consistent reference and standard.

@@ -1,7 +1,7 @@
-# Readme
+# Proofreading Process
 
 ## Overview
-This document defines the README used in the Indonesian Language Quality Assurance Portfolio.
+This document defines the proofreading-process used in the Indonesian Language Quality Assurance Portfolio.
 
 ## Purpose
 Establish a consistent reference and standard.

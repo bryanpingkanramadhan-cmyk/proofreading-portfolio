@@ -1149,3 +1149,443 @@ The framework serves as the operational bridge between project governance and da
 | Version | Date      | Description                                                  |
 | ------- | --------- | ------------------------------------------------------------ |
 | 1.0.0   | July 2026 | Initial Language Quality Management Framework for Open-LQMS. |
+
+# Repository Organization
+
+## Overview
+
+Open-LQMS is organized as a documentation-centered Quality Management System.
+
+Rather than grouping files by document type alone, the repository is structured according to the lifecycle of language quality management activities.
+
+Each directory has a clearly defined responsibility and contributes to the overall review process.
+
+The repository is intentionally modular so that new procedures, templates, case studies, and metrics can be added without affecting the existing structure.
+
+---
+
+# Repository Organization Model
+
+```text
+                          Open-LQMS
+                               │
+        ┌──────────────────────┼──────────────────────┐
+        │                      │                      │
+   Governance             Operations             Resources
+        │                      │                      │
+        │                      │                      │
+      docs/             procedures/           style-guide/
+                         work-instructions/    templates/
+                                               forms/
+                                               references/
+        │                      │                      │
+        └──────────────────────┼──────────────────────┘
+                               │
+                     Operational Evidence
+                               │
+                    ┌──────────┴──────────┐
+                    │                     │
+                 cases/               records/
+                    │                     │
+                    └──────────┬──────────┘
+                               │
+                        Measurement
+                               │
+                     metrics/   samples/
+                               │
+                               ▼
+                  Continuous Improvement
+```
+
+The structure separates governance documents, operational guidance, implementation examples, and quality measurements while maintaining traceability between them.
+
+---
+
+# Repository Navigation
+
+The recommended reading order is shown below.
+
+```text
+README
+   │
+   ▼
+docs/
+   │
+   ▼
+style-guide/
+   │
+   ▼
+procedures/
+   │
+   ▼
+work-instructions/
+   │
+   ▼
+templates/
+   │
+   ▼
+cases/
+   │
+   ▼
+records/
+   │
+   ▼
+metrics/
+   │
+   ▼
+samples/
+```
+
+This sequence introduces the project's objectives and standards before presenting operational procedures and practical examples.
+
+---
+
+# Directory Overview
+
+## docs/
+
+Purpose
+
+Contains governance documents, quality manuals, frameworks, methodologies, policies, and supporting documentation.
+
+Primary Users
+
+* Maintainers
+* Reviewers
+* Contributors
+
+Typical Contents
+
+* Quality Policy
+* Quality Objectives
+* Governance
+* Process Documentation
+* Quality Framework
+* Risk Management
+* Continuous Improvement
+
+---
+
+## procedures/
+
+Purpose
+
+Defines Standard Operating Procedures (SOPs) that standardize review activities.
+
+Primary Users
+
+* Reviewers
+* Maintainers
+
+Typical Contents
+
+* Document Review SOP
+* Proofreading SOP
+* Copyediting SOP
+* AI Review SOP
+* Quality Audit SOP
+
+---
+
+## work-instructions/
+
+Purpose
+
+Provides detailed, task-level guidance for performing individual review activities.
+
+Primary Users
+
+* Reviewers
+* New Contributors
+
+Typical Contents
+
+* Grammar Review
+* Terminology Validation
+* Readability Assessment
+* Formatting Review
+* Final QA Checklist
+
+---
+
+## style-guide/
+
+Purpose
+
+Defines writing standards used throughout the repository.
+
+Primary Users
+
+* Writers
+* Reviewers
+* Contributors
+
+Typical Contents
+
+* Grammar Rules
+* Punctuation Standards
+* Tone of Voice
+* Terminology Guide
+* Formatting Standards
+
+---
+
+## templates/
+
+Purpose
+
+Provides reusable document templates to ensure consistent documentation.
+
+Primary Users
+
+* Reviewers
+* Maintainers
+
+Typical Contents
+
+* QA Report
+* Review Report
+* Checklist
+* Risk Register
+* CAPA Form
+
+---
+
+## forms/
+
+Purpose
+
+Contains standardized forms used to collect review information.
+
+Examples
+
+* Issue Report
+* Review Request
+* Quality Assessment Form
+* Improvement Proposal
+
+---
+
+## records/
+
+Purpose
+
+Stores completed examples demonstrating how review activities are documented.
+
+Examples
+
+* Review Records
+* Issue Logs
+* Corrective Action Records
+* Approval Records
+
+---
+
+## cases/
+
+Purpose
+
+Contains synthetic case studies representing realistic review scenarios.
+
+Examples
+
+* Business Email
+* SOP Review
+* Customer Service Response
+* AI Output Review
+* Technical Documentation
+* Product Description
+
+---
+
+## metrics/
+
+Purpose
+
+Measures language quality using structured indicators.
+
+Examples
+
+* Review KPIs
+* Error Trends
+* Quality Scores
+* Terminology Consistency
+* Dashboard Examples
+
+---
+
+## samples/
+
+Purpose
+
+Demonstrates completed review outputs.
+
+Examples
+
+* Before-and-After Comparison
+* QA Reports
+* Review Summary
+* Scorecards
+
+---
+
+## references/
+
+Purpose
+
+Collects supporting learning resources, standards, and further reading relevant to language quality management.
+
+Examples
+
+* Writing Resources
+* Localization References
+* AI Evaluation Resources
+* Documentation References
+
+---
+
+## assets/
+
+Purpose
+
+Stores diagrams, workflow illustrations, repository graphics, and other visual resources used throughout the documentation.
+
+---
+
+# Repository Dependency Model
+
+Each directory depends on information from the previous layer.
+
+```text
+Vision
+   │
+Mission
+   │
+Quality Policy
+   │
+Framework
+   │
+Procedures
+   │
+Work Instructions
+   │
+Style Guide
+   │
+Templates
+   │
+Forms
+   │
+Case Studies
+   │
+Records
+   │
+Metrics
+   │
+Samples
+   │
+Continuous Improvement
+```
+
+This dependency model helps ensure that operational artifacts remain aligned with governance documents.
+
+---
+
+# Documentation Map
+
+The documentation hierarchy is organized into four primary categories.
+
+```text
+Governance
+│
+├── Policies
+├── Objectives
+├── Framework
+└── Governance
+
+Operations
+│
+├── Procedures
+├── Work Instructions
+└── Templates
+
+Evidence
+│
+├── Cases
+├── Records
+└── Samples
+
+Measurement
+│
+├── Metrics
+├── Reports
+└── Dashboards
+```
+
+Each category supports a different stage of the quality management lifecycle.
+
+---
+
+# Traceability Model
+
+Open-LQMS emphasizes traceability across documentation.
+
+```text
+Policy
+   │
+Procedure
+   │
+Work Instruction
+   │
+Checklist
+   │
+Review Activity
+   │
+Record
+   │
+Metric
+   │
+Improvement Action
+```
+
+This structure enables readers to understand how strategic guidance is translated into operational activities and how those activities are evaluated.
+
+---
+
+# Repository Design Principles
+
+The repository organization follows several design principles.
+
+* One primary responsibility per directory.
+* Consistent document structure.
+* Clear separation between governance and operations.
+* Reusable templates.
+* Traceable documentation.
+* Scalable organization.
+* Modular architecture.
+* Educational clarity.
+
+---
+
+# Repository Growth Strategy
+
+The repository is designed to grow incrementally.
+
+Future additions may include:
+
+* Additional language review methodologies.
+* Localization examples.
+* Multilingual style guides.
+* AI evaluation frameworks.
+* Interactive dashboards.
+* Automated quality metrics.
+* Synthetic datasets for benchmarking.
+
+The modular structure allows these additions without major restructuring.
+
+---
+
+# Revision History
+
+| Version | Date      | Description                                                                                 |
+| ------- | --------- | ------------------------------------------------------------------------------------------- |
+| 1.0.0   | July 2026 | Initial repository organization, documentation map, dependency model, and navigation guide. |

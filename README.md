@@ -775,3 +775,377 @@ Open-LQMS is designed around the following architectural principles:
 | 1.0.0   | July 2026 | Initial definition of project scope, repository architecture, and information flow. |
 
 > **Note:** Open-LQMS is an independent educational project. It is not affiliated with, endorsed by, or representative of any company, certification body, or standards organization. References to quality management concepts reflect generally accepted practices and are presented for learning and portfolio purposes.
+# Language Quality Management Framework
+
+## Overview
+
+The Language Quality Management Framework (LQMF) defines the operational model used throughout Open-LQMS to plan, execute, evaluate, document, and continuously improve language quality activities.
+
+The framework provides a structured approach for reviewing Indonesian-language content by combining governance, standardized review processes, quality measurement, documentation control, and continuous improvement.
+
+Rather than treating proofreading as a standalone activity, Open-LQMS considers language quality management to be a lifecycle supported by documented procedures, measurable objectives, and repeatable practices.
+
+---
+
+# Framework Objectives
+
+The framework has the following objectives:
+
+* Establish a consistent language review process.
+* Promote repeatable quality assurance practices.
+* Improve review transparency.
+* Encourage evidence-based review decisions.
+* Support continuous improvement.
+* Maintain documentation consistency.
+* Standardize terminology usage.
+* Facilitate reviewer onboarding.
+
+---
+
+# Framework Components
+
+The framework consists of eight interconnected components.
+
+```text id="n1l6df"
+                Language Quality
+               Management System
+                       │
+ ┌─────────────────────┼─────────────────────┐
+ │                     │                     │
+Governance        Documentation         Operations
+ │                     │                     │
+ │                     │                     │
+Policies          Standards          Review Process
+Procedures        Style Guide        Evaluation
+Templates         Glossary           Reporting
+ │                     │                     │
+ └─────────────────────┼─────────────────────┘
+                       │
+                 Quality Metrics
+                       │
+               Continuous Improvement
+```
+
+Each component contributes to the overall quality management process.
+
+---
+
+# Framework Layers
+
+Open-LQMS organizes quality management into five logical layers.
+
+## Layer 1 — Governance
+
+Purpose:
+
+Provide strategic direction.
+
+Includes:
+
+* Quality Policy
+* Quality Objectives
+* Governance
+* Scope
+* Roles
+* Responsibilities
+
+Output:
+
+Project governance documentation.
+
+---
+
+## Layer 2 — Documentation
+
+Purpose:
+
+Standardize documentation.
+
+Includes:
+
+* Manuals
+* Procedures
+* Work Instructions
+* Templates
+* Forms
+* Records
+
+Output:
+
+Controlled documentation.
+
+---
+
+## Layer 3 — Review Operations
+
+Purpose:
+
+Execute review activities.
+
+Includes:
+
+* Proofreading
+* Copyediting
+* Grammar Review
+* Terminology Review
+* Readability Review
+* Formatting Review
+* AI Output Review
+
+Output:
+
+Reviewed documents.
+
+---
+
+## Layer 4 — Quality Evaluation
+
+Purpose:
+
+Measure review quality.
+
+Includes:
+
+* Scorecards
+* Checklists
+* KPIs
+* Error Classification
+* Review Reports
+* Audit Results
+
+Output:
+
+Quality measurements.
+
+---
+
+## Layer 5 — Continuous Improvement
+
+Purpose:
+
+Improve processes over time.
+
+Includes:
+
+* Corrective Actions
+* Preventive Actions
+* Lessons Learned
+* Trend Analysis
+* Improvement Register
+
+Output:
+
+Improved review system.
+
+---
+
+# Review Lifecycle
+
+Every review follows the same standardized lifecycle.
+
+```text id="qxh0wb"
+Planning
+    │
+    ▼
+Document Intake
+    │
+    ▼
+Initial Assessment
+    │
+    ▼
+Proofreading
+    │
+    ▼
+Copyediting
+    │
+    ▼
+Terminology Validation
+    │
+    ▼
+Formatting Review
+    │
+    ▼
+Quality Evaluation
+    │
+    ▼
+Approval
+    │
+    ▼
+Publication
+    │
+    ▼
+Review Metrics
+    │
+    ▼
+Continuous Improvement
+```
+
+The lifecycle ensures that every review follows a documented and repeatable process.
+
+---
+
+# Quality Dimensions
+
+Each review considers multiple quality dimensions.
+
+| Dimension   | Objective                                          |
+| ----------- | -------------------------------------------------- |
+| Grammar     | Correct language structure.                        |
+| Spelling    | Accurate spelling based on Indonesian conventions. |
+| Punctuation | Correct punctuation usage.                         |
+| Terminology | Consistent terminology.                            |
+| Readability | Easy to understand.                                |
+| Clarity     | Minimize ambiguity.                                |
+| Tone        | Appropriate communication style.                   |
+| Formatting  | Consistent visual presentation.                    |
+| Accuracy    | Preserve intended meaning.                         |
+| Neutrality  | Avoid unsupported or biased language.              |
+
+Quality dimensions are evaluated collectively rather than independently.
+
+---
+
+# Review Decision Framework
+
+The framework guides reviewers through a structured decision process.
+
+```text id="wz2kn6"
+Document Received
+        │
+        ▼
+Complete?
+   │          │
+ No          Yes
+ │            │
+Return    Begin Review
+ │            │
+ ▼            ▼
+Correct?   Major Issues?
+               │
+        ┌──────┴──────┐
+        │             │
+      Yes            No
+        │             │
+Revision        Final QA
+        │             │
+        ▼             ▼
+Re-review     Approval
+```
+
+This decision model promotes consistency in review outcomes.
+
+---
+
+# Roles Within the Framework
+
+| Role          | Primary Responsibility                                         |
+| ------------- | -------------------------------------------------------------- |
+| Project Owner | Defines strategic direction and repository objectives.         |
+| Maintainer    | Maintains documentation quality and repository structure.      |
+| Reviewer      | Performs language quality reviews using documented procedures. |
+| Contributor   | Suggests improvements and submits documentation updates.       |
+| Reader        | Uses the repository as a learning resource or reference.       |
+
+These roles describe responsibilities within the Open-LQMS project itself.
+
+---
+
+# Quality Gates
+
+Review activities should pass defined quality gates before completion.
+
+| Quality Gate                 | Purpose                                    |
+| ---------------------------- | ------------------------------------------ |
+| Documentation Complete       | Required information is available.         |
+| Grammar Reviewed             | Grammar review completed.                  |
+| Terminology Validated        | Approved terminology applied consistently. |
+| Formatting Verified          | Formatting follows repository standards.   |
+| Quality Evaluation Completed | Evaluation checklist completed.            |
+| Final Approval               | Document ready for publication.            |
+
+Quality gates reduce the likelihood of incomplete reviews.
+
+---
+
+# Framework Outputs
+
+The framework produces several categories of outputs.
+
+Documentation
+
+* Policies
+* Procedures
+* Work Instructions
+
+Operational Outputs
+
+* Reviewed Documents
+* Review Reports
+* Issue Logs
+
+Quality Outputs
+
+* Metrics
+* Dashboards
+* Scorecards
+
+Improvement Outputs
+
+* Corrective Actions
+* Lessons Learned
+* Improvement Register
+
+---
+
+# Framework Benefits
+
+Implementing a structured framework provides several advantages.
+
+* Consistent review practices.
+* Clear documentation.
+* Easier onboarding.
+* Better traceability.
+* Repeatable workflows.
+* Improved maintainability.
+* Measurable quality outcomes.
+* Support for continuous improvement.
+
+---
+
+# Relationship to Repository Components
+
+```text id="d87btk"
+Vision
+   │
+Mission
+   │
+Governance
+   │
+Quality Framework
+   │
+Policies
+   │
+Procedures
+   │
+Work Instructions
+   │
+Templates
+   │
+Review Activities
+   │
+Quality Records
+   │
+Metrics
+   │
+Continuous Improvement
+```
+
+The framework serves as the operational bridge between project governance and day-to-day review activities.
+
+---
+
+# Revision History
+
+| Version | Date      | Description                                                  |
+| ------- | --------- | ------------------------------------------------------------ |
+| 1.0.0   | July 2026 | Initial Language Quality Management Framework for Open-LQMS. |

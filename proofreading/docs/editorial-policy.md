@@ -1,0 +1,3 @@
+# Editorial Policy
+
+Placeholder documentation.

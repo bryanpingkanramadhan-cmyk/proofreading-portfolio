@@ -1,0 +1,3 @@
+# Proofreading Guideline
+
+Placeholder documentation.

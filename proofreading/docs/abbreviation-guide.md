@@ -1,0 +1,3 @@
+# Abbreviation Guide
+
+Placeholder documentation.

@@ -1,0 +1,3 @@
+# Capitalization Rules
+
+Placeholder documentation.

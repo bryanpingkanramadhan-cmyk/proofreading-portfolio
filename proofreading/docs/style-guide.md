@@ -1,0 +1,3 @@
+# Style Guide
+
+Placeholder documentation.

@@ -1,0 +1,3 @@
+# Terminology Guide
+
+Placeholder documentation.

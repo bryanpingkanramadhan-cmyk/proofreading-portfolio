@@ -446,4 +446,332 @@ Metrics & Continuous Improvement
 | ------- | --------- | ------------------------------------------------------------------------------------------------------------ |
 | 1.0.0   | July 2026 | Initial definition of the project's vision, mission, core values, design philosophy, and quality objectives. |
 
+# Project Scope
+
+## Overview
+
+Open-LQMS defines the boundaries of the project and establishes what is included, what is intentionally excluded, and how each component contributes to the overall Language Quality Management System.
+
+The repository focuses on demonstrating structured language quality management practices through original documentation, reusable templates, synthetic datasets, and educational case studies.
+
+---
+
+## Scope Statement
+
+Open-LQMS is designed to demonstrate an enterprise-inspired framework for managing the quality of Indonesian-language content.
+
+The project emphasizes documentation, governance, repeatable review processes, and quality improvement rather than software development or automated language correction.
+
+The repository serves as a learning resource and professional portfolio for language quality management concepts.
+
+---
+
+## In Scope
+
+The following topics are included within the scope of Open-LQMS.
+
+### Documentation
+
+* Quality manuals
+* Policies
+* Standard operating procedures
+* Work instructions
+* Process documentation
+* Documentation governance
+
+---
+
+### Language Review
+
+* Proofreading
+* Copyediting
+* Grammar review
+* Spelling review
+* Punctuation review
+* Readability review
+* Tone review
+* Terminology management
+* Formatting review
+
+---
+
+### Linguistic Quality Assurance
+
+* Review methodologies
+* Evaluation criteria
+* Error classification
+* Review reporting
+* Quality metrics
+* Continuous improvement
+
+---
+
+### AI Language Evaluation
+
+Examples of structured review for AI-generated content, including:
+
+* Fluency
+* Consistency
+* Terminology usage
+* Clarity
+* Neutrality
+* Readability
+* Hallucination awareness
+* Prompt evaluation
+
+---
+
+### Documentation Resources
+
+* Templates
+* Forms
+* Records
+* Examples
+* Dashboards
+* Checklists
+* Style guides
+
+---
+
+### Portfolio Demonstrations
+
+* Synthetic case studies
+* Before-and-after reviews
+* Quality reports
+* Documentation examples
+* Language review workflows
+
+---
+
+## Out of Scope
+
+The following topics are intentionally outside the scope of this project.
+
+### Machine Learning Development
+
+Open-LQMS does not develop, train, or evaluate machine learning models.
+
+---
+
+### Translation Services
+
+The repository focuses primarily on Indonesian language quality management rather than multilingual translation workflows.
+
+---
+
+### Legal or Regulatory Compliance
+
+The project does not claim compliance with any legal, regulatory, or certification requirements.
+
+---
+
+### Commercial Consulting
+
+Open-LQMS is an educational repository and should not be interpreted as professional consulting advice.
+
+---
+
+### Production Software
+
+The repository does not include production-ready proofreading software or automated review systems.
+
+---
+
+# System Architecture
+
+## Overview
+
+Open-LQMS follows a documentation-centered architecture.
+
+Every component is connected through documented processes rather than software dependencies.
+
+```text
+                    Open-LQMS
+
+                         │
+     ┌───────────────────┼───────────────────┐
+     │                   │                   │
+ Documentation      Operational Docs      Resources
+     │                   │                   │
+     │                   │                   │
+Policies          Procedures          Templates
+Quality Manual    Work Instructions   Forms
+Framework         Case Studies        Records
+     │                   │                   │
+     └───────────────────┼───────────────────┘
+                         │
+                  Quality Measurement
+                         │
+                    Metrics
+                    Dashboards
+                    Reports
+                         │
+                         ▼
+              Continuous Improvement
+```
+
+The architecture is intentionally modular.
+
+Each directory has a single primary responsibility while remaining connected to the overall quality management framework.
+
+---
+
+# Repository Structure
+
+```text
+open-lqms/
+│
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+├── GOVERNANCE.md
+├── ROADMAP.md
+├── VERSIONING.md
+│
+├── docs/
+├── procedures/
+├── work-instructions/
+├── style-guide/
+├── templates/
+├── forms/
+├── records/
+├── metrics/
+├── cases/
+├── samples/
+├── references/
+└── assets/
+```
+
+---
+
+# Directory Responsibilities
+
+| Directory            | Primary Responsibility                                                  |
+| -------------------- | ----------------------------------------------------------------------- |
+| `docs/`              | Governance, policies, manuals, frameworks, and supporting documentation |
+| `procedures/`        | Standard Operating Procedures (SOPs)                                    |
+| `work-instructions/` | Detailed task-level instructions                                        |
+| `style-guide/`       | Writing standards and terminology guidance                              |
+| `templates/`         | Reusable document templates                                             |
+| `forms/`             | Structured forms used during review activities                          |
+| `records/`           | Example records demonstrating completed reviews                         |
+| `metrics/`           | Quality indicators, dashboards, and measurement examples                |
+| `cases/`             | Synthetic review case studies                                           |
+| `samples/`           | Example outputs and comparison reports                                  |
+| `references/`        | Educational resources and supporting materials                          |
+| `assets/`            | Images, diagrams, and visual resources                                  |
+
+---
+
+# Information Flow
+
+The repository follows a structured information flow.
+
+```text
+Project Governance
+        │
+        ▼
+Quality Documentation
+        │
+        ▼
+Policies
+        │
+        ▼
+Procedures
+        │
+        ▼
+Work Instructions
+        │
+        ▼
+Templates & Forms
+        │
+        ▼
+Case Studies
+        │
+        ▼
+Review Records
+        │
+        ▼
+Metrics & Dashboards
+        │
+        ▼
+Continuous Improvement
+```
+
+This flow illustrates how governance documents influence operational activities and how review outcomes feed back into quality improvement.
+
+---
+
+# Relationship Between Components
+
+Each directory supports a specific stage of the quality management process.
+
+```text
+Vision
+   │
+Mission
+   │
+Quality Policy
+   │
+Quality Framework
+   │
+Procedures
+   │
+Work Instructions
+   │
+Templates
+   │
+Review Activities
+   │
+Quality Records
+   │
+Performance Metrics
+   │
+Improvement Actions
+```
+
+This hierarchy ensures that operational activities remain aligned with documented objectives and principles.
+
+---
+
+# Scalability
+
+The repository has been designed to support gradual expansion.
+
+Future additions may include:
+
+* Additional review methodologies.
+* Localization workflows.
+* AI evaluation frameworks.
+* Dashboard examples.
+* Synthetic datasets.
+* Reporting automation.
+* Additional language-specific guidance.
+
+The modular structure allows these additions without changing the overall architecture.
+
+---
+
+# Architectural Principles
+
+Open-LQMS is designed around the following architectural principles:
+
+* **Modularity** — Each directory has a clearly defined purpose.
+* **Traceability** — Documents reference related processes and supporting materials.
+* **Consistency** — Standard structures are used across documentation.
+* **Reusability** — Templates and procedures can be reused across multiple scenarios.
+* **Maintainability** — Documentation is organized to simplify updates.
+* **Extensibility** — New content can be integrated without redesigning the repository.
+
+---
+
+# Revision History
+
+| Version | Date      | Description                                                                         |
+| ------- | --------- | ----------------------------------------------------------------------------------- |
+| 1.0.0   | July 2026 | Initial definition of project scope, repository architecture, and information flow. |
+
 > **Note:** Open-LQMS is an independent educational project. It is not affiliated with, endorsed by, or representative of any company, certification body, or standards organization. References to quality management concepts reflect generally accepted practices and are presented for learning and portfolio purposes.

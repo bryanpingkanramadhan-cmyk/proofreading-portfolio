@@ -1589,3 +1589,1224 @@ The modular structure allows these additions without major restructuring.
 | Version | Date      | Description                                                                                 |
 | ------- | --------- | ------------------------------------------------------------------------------------------- |
 | 1.0.0   | July 2026 | Initial repository organization, documentation map, dependency model, and navigation guide. |
+
+# Getting Started
+
+## Welcome
+
+Welcome to **Open-LQMS**.
+
+This repository is designed as an educational and portfolio project that demonstrates how an enterprise-inspired Language Quality Management System (LQMS) can be organized using structured documentation, governance, review procedures, templates, and quality metrics.
+
+Unlike a traditional software project, Open-LQMS does not require installation or compilation. The primary objective is to explore, understand, and reuse documentation patterns and language quality workflows.
+
+Whether you are a proofreader, AI language reviewer, technical writer, student, or recruiter, this guide will help you navigate the repository effectively.
+
+---
+
+# Before You Begin
+
+To get the most value from Open-LQMS, readers should have a basic understanding of:
+
+* Indonesian language conventions.
+* General proofreading concepts.
+* Markdown documents.
+* Version control concepts (helpful but not required).
+* GitHub repository navigation.
+
+No programming knowledge is required for most of the documentation.
+
+---
+
+# Recommended Learning Path
+
+Different users may have different goals.
+
+The following learning paths are recommended.
+
+## Learning Path A — New to Language Quality
+
+Recommended for:
+
+* Students
+* Beginners
+* Career changers
+
+Suggested order:
+
+```text
+README
+    ↓
+docs/
+    ↓
+style-guide/
+    ↓
+procedures/
+    ↓
+work-instructions/
+    ↓
+cases/
+    ↓
+samples/
+```
+
+This path introduces language quality concepts before presenting operational procedures and practical examples.
+
+---
+
+## Learning Path B — Proofreader
+
+Recommended for:
+
+* Proofreaders
+* Copy Editors
+
+Suggested order:
+
+```text
+README
+    ↓
+style-guide/
+    ↓
+procedures/
+    ↓
+templates/
+    ↓
+cases/
+    ↓
+records/
+```
+
+Focus areas:
+
+* Grammar
+* Spelling
+* Punctuation
+* Consistency
+* Readability
+
+---
+
+## Learning Path C — AI Language Reviewer
+
+Recommended for:
+
+* AI Trainers
+* AI Evaluators
+* AI Data Annotators
+
+Suggested order:
+
+```text
+README
+    ↓
+docs/
+    ↓
+AI Review Procedures
+    ↓
+Templates
+    ↓
+AI Case Studies
+    ↓
+Metrics
+```
+
+Focus areas:
+
+* AI output evaluation
+* Hallucination awareness
+* Prompt evaluation
+* Linguistic consistency
+* Structured review reporting
+
+---
+
+## Learning Path D — Technical Writer
+
+Recommended for:
+
+* Technical Writers
+* Documentation Engineers
+
+Suggested order:
+
+```text
+README
+    ↓
+Documentation Framework
+    ↓
+Templates
+    ↓
+Style Guide
+    ↓
+Documentation Cases
+```
+
+Focus areas:
+
+* Documentation structure
+* Writing standards
+* Version control
+* Document consistency
+
+---
+
+# Repository Walkthrough
+
+The repository is organized to reflect the lifecycle of language quality management.
+
+```text
+Step 1
+Read the README
+
+        ↓
+
+Step 2
+Understand governance documents
+
+        ↓
+
+Step 3
+Study writing standards
+
+        ↓
+
+Step 4
+Learn review procedures
+
+        ↓
+
+Step 5
+Perform review activities
+
+        ↓
+
+Step 6
+Document findings
+
+        ↓
+
+Step 7
+Measure quality
+
+        ↓
+
+Step 8
+Improve the process
+```
+
+---
+
+# First 30 Minutes
+
+The following activities provide a quick introduction to the repository.
+
+### Minutes 0–5
+
+Read:
+
+* README
+* Project Vision
+* Mission
+* Repository Structure
+
+Objective:
+
+Understand the purpose of the project.
+
+---
+
+### Minutes 5–10
+
+Read:
+
+* Style Guide
+* Terminology Guide
+
+Objective:
+
+Learn the documentation standards.
+
+---
+
+### Minutes 10–20
+
+Review:
+
+* SOP examples
+* Work Instructions
+* Templates
+
+Objective:
+
+Understand how reviews are performed.
+
+---
+
+### Minutes 20–30
+
+Complete:
+
+* One synthetic case study.
+* Compare your review with the provided sample.
+
+Objective:
+
+Apply the documented review process.
+
+---
+
+# Suggested Reading Order
+
+| Priority | Document          | Purpose                          |
+| -------- | ----------------- | -------------------------------- |
+| 1        | README            | Project overview                 |
+| 2        | Quality Framework | Understand the management model  |
+| 3        | Style Guide       | Learn writing standards          |
+| 4        | Procedures        | Learn operational workflows      |
+| 5        | Work Instructions | Perform detailed review tasks    |
+| 6        | Templates         | Produce consistent documentation |
+| 7        | Case Studies      | Practice review techniques       |
+| 8        | Records           | See completed examples           |
+| 9        | Metrics           | Understand quality measurement   |
+
+---
+
+# Quick Start Checklist
+
+Use the following checklist to begin exploring Open-LQMS.
+
+* Read the project overview.
+* Understand the project scope.
+* Review the language quality framework.
+* Explore repository directories.
+* Read the style guide.
+* Study one review procedure.
+* Review one work instruction.
+* Complete one synthetic case study.
+* Compare your work with the sample output.
+* Review the quality metrics.
+
+---
+
+# Example Learning Journey
+
+The following illustrates a typical progression.
+
+```text
+Understand
+      ↓
+Read
+      ↓
+Observe
+      ↓
+Practice
+      ↓
+Evaluate
+      ↓
+Improve
+      ↓
+Repeat
+```
+
+This iterative approach reinforces both documentation skills and language review practices.
+
+---
+
+# Common Use Cases
+
+Open-LQMS can be used to:
+
+* Learn proofreading methodologies.
+* Practice copyediting.
+* Understand language quality assurance.
+* Explore AI-assisted review workflows.
+* Build a documentation portfolio.
+* Train new reviewers.
+* Demonstrate documentation standards.
+* Create synthetic review exercises.
+
+---
+
+# Tips for Contributors
+
+Before contributing:
+
+* Read the style guide.
+* Follow the documented procedures.
+* Use the provided templates.
+* Keep terminology consistent.
+* Reference related documents where appropriate.
+* Document significant changes.
+
+Following these practices helps maintain consistency across the repository.
+
+---
+
+# Next Steps
+
+After completing the Getting Started guide, continue with:
+
+1. Documentation Framework
+2. Style Guide
+3. Standard Operating Procedures
+4. Work Instructions
+5. Templates
+6. Case Studies
+7. Metrics
+8. Continuous Improvement
+
+These sections provide progressively deeper insight into the Open-LQMS methodology.
+
+---
+
+# Revision History
+
+| Version | Date      | Description                                                                               |
+| ------- | --------- | ----------------------------------------------------------------------------------------- |
+| 1.0.0   | July 2026 | Initial Getting Started, learning paths, onboarding guide, and quick start documentation. |
+
+# Getting Started
+
+## Welcome
+
+Welcome to **Open-LQMS**.
+
+This repository is designed as an educational and portfolio project that demonstrates how an enterprise-inspired Language Quality Management System (LQMS) can be organized using structured documentation, governance, review procedures, templates, and quality metrics.
+
+Unlike a traditional software project, Open-LQMS does not require installation or compilation. The primary objective is to explore, understand, and reuse documentation patterns and language quality workflows.
+
+Whether you are a proofreader, AI language reviewer, technical writer, student, or recruiter, this guide will help you navigate the repository effectively.
+
+---
+
+# Before You Begin
+
+To get the most value from Open-LQMS, readers should have a basic understanding of:
+
+* Indonesian language conventions.
+* General proofreading concepts.
+* Markdown documents.
+* Version control concepts (helpful but not required).
+* GitHub repository navigation.
+
+No programming knowledge is required for most of the documentation.
+
+---
+
+# Recommended Learning Path
+
+Different users may have different goals.
+
+The following learning paths are recommended.
+
+## Learning Path A — New to Language Quality
+
+Recommended for:
+
+* Students
+* Beginners
+* Career changers
+
+Suggested order:
+
+```text
+README
+    ↓
+docs/
+    ↓
+style-guide/
+    ↓
+procedures/
+    ↓
+work-instructions/
+    ↓
+cases/
+    ↓
+samples/
+```
+
+This path introduces language quality concepts before presenting operational procedures and practical examples.
+
+---
+
+## Learning Path B — Proofreader
+
+Recommended for:
+
+* Proofreaders
+* Copy Editors
+
+Suggested order:
+
+```text
+README
+    ↓
+style-guide/
+    ↓
+procedures/
+    ↓
+templates/
+    ↓
+cases/
+    ↓
+records/
+```
+
+Focus areas:
+
+* Grammar
+* Spelling
+* Punctuation
+* Consistency
+* Readability
+
+---
+
+## Learning Path C — AI Language Reviewer
+
+Recommended for:
+
+* AI Trainers
+* AI Evaluators
+* AI Data Annotators
+
+Suggested order:
+
+```text
+README
+    ↓
+docs/
+    ↓
+AI Review Procedures
+    ↓
+Templates
+    ↓
+AI Case Studies
+    ↓
+Metrics
+```
+
+Focus areas:
+
+* AI output evaluation
+* Hallucination awareness
+* Prompt evaluation
+* Linguistic consistency
+* Structured review reporting
+
+---
+
+## Learning Path D — Technical Writer
+
+Recommended for:
+
+* Technical Writers
+* Documentation Engineers
+
+Suggested order:
+
+```text
+README
+    ↓
+Documentation Framework
+    ↓
+Templates
+    ↓
+Style Guide
+    ↓
+Documentation Cases
+```
+
+Focus areas:
+
+* Documentation structure
+* Writing standards
+* Version control
+* Document consistency
+
+---
+
+# Repository Walkthrough
+
+The repository is organized to reflect the lifecycle of language quality management.
+
+```text
+Step 1
+Read the README
+
+        ↓
+
+Step 2
+Understand governance documents
+
+        ↓
+
+Step 3
+Study writing standards
+
+        ↓
+
+Step 4
+Learn review procedures
+
+        ↓
+
+Step 5
+Perform review activities
+
+        ↓
+
+Step 6
+Document findings
+
+        ↓
+
+Step 7
+Measure quality
+
+        ↓
+
+Step 8
+Improve the process
+```
+
+---
+
+# First 30 Minutes
+
+The following activities provide a quick introduction to the repository.
+
+### Minutes 0–5
+
+Read:
+
+* README
+* Project Vision
+* Mission
+* Repository Structure
+
+Objective:
+
+Understand the purpose of the project.
+
+---
+
+### Minutes 5–10
+
+Read:
+
+* Style Guide
+* Terminology Guide
+
+Objective:
+
+Learn the documentation standards.
+
+---
+
+### Minutes 10–20
+
+Review:
+
+* SOP examples
+* Work Instructions
+* Templates
+
+Objective:
+
+Understand how reviews are performed.
+
+---
+
+### Minutes 20–30
+
+Complete:
+
+* One synthetic case study.
+* Compare your review with the provided sample.
+
+Objective:
+
+Apply the documented review process.
+
+---
+
+# Suggested Reading Order
+
+| Priority | Document          | Purpose                          |
+| -------- | ----------------- | -------------------------------- |
+| 1        | README            | Project overview                 |
+| 2        | Quality Framework | Understand the management model  |
+| 3        | Style Guide       | Learn writing standards          |
+| 4        | Procedures        | Learn operational workflows      |
+| 5        | Work Instructions | Perform detailed review tasks    |
+| 6        | Templates         | Produce consistent documentation |
+| 7        | Case Studies      | Practice review techniques       |
+| 8        | Records           | See completed examples           |
+| 9        | Metrics           | Understand quality measurement   |
+
+---
+
+# Quick Start Checklist
+
+Use the following checklist to begin exploring Open-LQMS.
+
+* Read the project overview.
+* Understand the project scope.
+* Review the language quality framework.
+* Explore repository directories.
+* Read the style guide.
+* Study one review procedure.
+* Review one work instruction.
+* Complete one synthetic case study.
+* Compare your work with the sample output.
+* Review the quality metrics.
+
+---
+
+# Example Learning Journey
+
+The following illustrates a typical progression.
+
+```text
+Understand
+      ↓
+Read
+      ↓
+Observe
+      ↓
+Practice
+      ↓
+Evaluate
+      ↓
+Improve
+      ↓
+Repeat
+```
+
+This iterative approach reinforces both documentation skills and language review practices.
+
+---
+
+# Common Use Cases
+
+Open-LQMS can be used to:
+
+* Learn proofreading methodologies.
+* Practice copyediting.
+* Understand language quality assurance.
+* Explore AI-assisted review workflows.
+* Build a documentation portfolio.
+* Train new reviewers.
+* Demonstrate documentation standards.
+* Create synthetic review exercises.
+
+---
+
+# Tips for Contributors
+
+Before contributing:
+
+* Read the style guide.
+* Follow the documented procedures.
+* Use the provided templates.
+* Keep terminology consistent.
+* Reference related documents where appropriate.
+* Document significant changes.
+
+Following these practices helps maintain consistency across the repository.
+
+---
+
+# Next Steps
+
+After completing the Getting Started guide, continue with:
+
+1. Documentation Framework
+2. Style Guide
+3. Standard Operating Procedures
+4. Work Instructions
+5. Templates
+6. Case Studies
+7. Metrics
+8. Continuous Improvement
+
+These sections provide progressively deeper insight into the Open-LQMS methodology.
+
+---
+
+# Revision History
+
+| Version | Date      | Description                                                                               |
+| ------- | --------- | ----------------------------------------------------------------------------------------- |
+| 1.0.0   | July 2026 | Initial Getting Started, learning paths, onboarding guide, and quick start documentation. |
+
+# Getting Started
+
+## Welcome
+
+Welcome to **Open-LQMS**.
+
+This repository is designed as an educational and portfolio project that demonstrates how an enterprise-inspired Language Quality Management System (LQMS) can be organized using structured documentation, governance, review procedures, templates, and quality metrics.
+
+Unlike a traditional software project, Open-LQMS does not require installation or compilation. The primary objective is to explore, understand, and reuse documentation patterns and language quality workflows.
+
+Whether you are a proofreader, AI language reviewer, technical writer, student, or recruiter, this guide will help you navigate the repository effectively.
+
+---
+
+# Before You Begin
+
+To get the most value from Open-LQMS, readers should have a basic understanding of:
+
+* Indonesian language conventions.
+* General proofreading concepts.
+* Markdown documents.
+* Version control concepts (helpful but not required).
+* GitHub repository navigation.
+
+No programming knowledge is required for most of the documentation.
+
+---
+
+# Recommended Learning Path
+
+Different users may have different goals.
+
+The following learning paths are recommended.
+
+## Learning Path A — New to Language Quality
+
+Recommended for:
+
+* Students
+* Beginners
+* Career changers
+
+Suggested order:
+
+```text
+README
+    ↓
+docs/
+    ↓
+style-guide/
+    ↓
+procedures/
+    ↓
+work-instructions/
+    ↓
+cases/
+    ↓
+samples/
+```
+
+This path introduces language quality concepts before presenting operational procedures and practical examples.
+
+---
+
+## Learning Path B — Proofreader
+
+Recommended for:
+
+* Proofreaders
+* Copy Editors
+
+Suggested order:
+
+```text
+README
+    ↓
+style-guide/
+    ↓
+procedures/
+    ↓
+templates/
+    ↓
+cases/
+    ↓
+records/
+```
+
+Focus areas:
+
+* Grammar
+* Spelling
+* Punctuation
+* Consistency
+* Readability
+
+---
+
+## Learning Path C — AI Language Reviewer
+
+Recommended for:
+
+* AI Trainers
+* AI Evaluators
+* AI Data Annotators
+
+Suggested order:
+
+```text
+README
+    ↓
+docs/
+    ↓
+AI Review Procedures
+    ↓
+Templates
+    ↓
+AI Case Studies
+    ↓
+Metrics
+```
+
+Focus areas:
+
+* AI output evaluation
+* Hallucination awareness
+* Prompt evaluation
+* Linguistic consistency
+* Structured review reporting
+
+---
+
+## Learning Path D — Technical Writer
+
+Recommended for:
+
+* Technical Writers
+* Documentation Engineers
+
+Suggested order:
+
+```text
+README
+    ↓
+Documentation Framework
+    ↓
+Templates
+    ↓
+Style Guide
+    ↓
+Documentation Cases
+```
+
+Focus areas:
+
+* Documentation structure
+* Writing standards
+* Version control
+* Document consistency
+
+---
+
+# Repository Walkthrough
+
+The repository is organized to reflect the lifecycle of language quality management.
+
+```text
+Step 1
+Read the README
+
+        ↓
+
+Step 2
+Understand governance documents
+
+        ↓
+
+Step 3
+Study writing standards
+
+        ↓
+
+Step 4
+Learn review procedures
+
+        ↓
+
+Step 5
+Perform review activities
+
+        ↓
+
+Step 6
+Document findings
+
+        ↓
+
+Step 7
+Measure quality
+
+        ↓
+
+Step 8
+Improve the process
+```
+
+---
+
+# First 30 Minutes
+
+The following activities provide a quick introduction to the repository.
+
+### Minutes 0–5
+
+Read:
+
+* README
+* Project Vision
+* Mission
+* Repository Structure
+
+Objective:
+
+Understand the purpose of the project.
+
+---
+
+### Minutes 5–10
+
+Read:
+
+* Style Guide
+* Terminology Guide
+
+Objective:
+
+Learn the documentation standards.
+
+---
+
+### Minutes 10–20
+
+Review:
+
+* SOP examples
+* Work Instructions
+* Templates
+
+Objective:
+
+Understand how reviews are performed.
+
+---
+
+### Minutes 20–30
+
+Complete:
+
+* One synthetic case study.
+* Compare your review with the provided sample.
+
+Objective:
+
+Apply the documented review process.
+
+---
+
+# Suggested Reading Order
+
+| Priority | Document          | Purpose                          |
+| -------- | ----------------- | -------------------------------- |
+| 1        | README            | Project overview                 |
+| 2        | Quality Framework | Understand the management model  |
+| 3        | Style Guide       | Learn writing standards          |
+| 4        | Procedures        | Learn operational workflows      |
+| 5        | Work Instructions | Perform detailed review tasks    |
+| 6        | Templates         | Produce consistent documentation |
+| 7        | Case Studies      | Practice review techniques       |
+| 8        | Records           | See completed examples           |
+| 9        | Metrics           | Understand quality measurement   |
+
+---
+
+# Quick Start Checklist
+
+Use the following checklist to begin exploring Open-LQMS.
+
+* Read the project overview.
+* Understand the project scope.
+* Review the language quality framework.
+* Explore repository directories.
+* Read the style guide.
+* Study one review procedure.
+* Review one work instruction.
+* Complete one synthetic case study.
+* Compare your work with the sample output.
+* Review the quality metrics.
+
+---
+
+# Example Learning Journey
+
+The following illustrates a typical progression.
+
+```text
+Understand
+      ↓
+Read
+      ↓
+Observe
+      ↓
+Practice
+      ↓
+Evaluate
+      ↓
+Improve
+      ↓
+Repeat
+```
+
+This iterative approach reinforces both documentation skills and language review practices.
+
+---
+
+# Common Use Cases
+
+Open-LQMS can be used to:
+
+* Learn proofreading methodologies.
+* Practice copyediting.
+* Understand language quality assurance.
+* Explore AI-assisted review workflows.
+* Build a documentation portfolio.
+* Train new reviewers.
+* Demonstrate documentation standards.
+* Create synthetic review exercises.
+
+---
+
+# Tips for Contributors
+
+Before contributing:
+
+* Read the style guide.
+* Follow the documented procedures.
+* Use the provided templates.
+* Keep terminology consistent.
+* Reference related documents where appropriate.
+* Document significant changes.
+
+Following these practices helps maintain consistency across the repository.
+
+---
+
+# Next Steps
+
+After completing the Getting Started guide, continue with:
+
+1. Documentation Framework
+2. Style Guide
+3. Standard Operating Procedures
+4. Work Instructions
+5. Templates
+6. Case Studies
+7. Metrics
+8. Continuous Improvement
+
+These sections provide progressively deeper insight into the Open-LQMS methodology.
+
+---
+
+# Revision History
+
+| Version | Date      | Description                                                                               |
+| ------- | --------- | ----------------------------------------------------------------------------------------- |
+| 1.0.0   | July 2026 | Initial Getting Started, learning paths, onboarding guide, and quick start documentation. |
+
+# Appendix
+
+## Documentation Index
+
+| Section | Description |
+|---|---|
+| docs/ | Governance, quality manuals, policies, frameworks |
+| procedures/ | Standard operating procedures |
+| work-instructions/ | Task-level guidance |
+| style-guide/ | Writing standards and terminology |
+| templates/ | Reusable templates |
+| forms/ | Operational forms |
+| records/ | Example completed records |
+| cases/ | Synthetic case studies |
+| samples/ | Before/after review samples |
+| metrics/ | KPIs, dashboards, scorecards |
+| references/ | Supporting resources |
+
+---
+
+# Example Repository Journey
+
+```text
+Discover
+   ↓
+Read Framework
+   ↓
+Understand Standards
+   ↓
+Practice with Cases
+   ↓
+Produce Review Records
+   ↓
+Measure Quality
+   ↓
+Improve Process
+```
+
+---
+
+# Glossary
+
+**LQMS** — Language Quality Management System.
+
+**LQA** — Linguistic Quality Assurance.
+
+**Proofreading** — Reviewing text for grammar, spelling, punctuation, and minor language issues without substantially changing meaning.
+
+**Copyediting** — Improving clarity, consistency, terminology, and style while preserving intended meaning.
+
+**Synthetic Dataset** — Artificially created data that imitates realistic scenarios without representing actual individuals or organizations.
+
+---
+
+# References
+
+Open-LQMS is informed by generally accepted practices in:
+
+- Open-source documentation
+- Technical writing
+- Quality management concepts
+- Indonesian language review
+- AI-assisted language evaluation
+
+The repository does not claim compliance with any certification or formal standard.
+
+---
+
+# Final Notes
+
+Open-LQMS is intended to evolve incrementally. New procedures, templates, case studies, and metrics should align with the project's governance, documentation standards, and quality framework.
+
+Readers are encouraged to begin with the README, explore the documentation hierarchy, and apply the workflows using the synthetic examples included throughout the repository.
+
+---
+
+# Contact
+
+Project: Open-LQMS
+
+Repository Status: Active Development
+
+Purpose: Educational Open-Source Documentation Framework
+
+---
+
+# Revision History
+
+| Version | Date | Description |
+|---|---|---|
+| 1.0.0 | July 2026 | Initial appendix, glossary, documentation index, references, and closing notes. |
+
